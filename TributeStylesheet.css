@@ -3,7 +3,8 @@ html {
        Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
      */
     font-size: 10px;
-    background-color: rgba(0,225,212,.11);
+    background: linear-gradient(45deg, 133,52,91,.11);
+
 }
 
 body {
@@ -25,7 +26,7 @@ h1 {
     font-size: 6rem;
     margin-bottom: 0;
     text-align: center;
-    color: red;
+    color: #ff4343;
 }
 
 @media (max-width: 460px) {
@@ -36,7 +37,8 @@ h1 {
 }
 
 h2 {
-    font-size: 3.25rem;
+    font-size: 3.15rem;
+
 }
 
 a {
@@ -51,7 +53,7 @@ a:visited {
     margin: auto;
     padding: 15px;
     border-radius: 5px;
-    background: #eee;
+    background: #eeaabb;
 }
 
 @media (max-width: 600px) {
@@ -61,14 +63,14 @@ a:visited {
 }
 
 img {
-    max-width: 100%;
+    max-width: 50%;
     display: block;
     height: auto;
     margin: 0 auto;
 }
 
 #img-div {
-    background: white;
+    background: #b3dcff;
     padding: 10px;
     margin: 0;
 }
