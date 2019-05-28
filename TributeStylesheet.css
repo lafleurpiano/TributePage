@@ -54,10 +54,11 @@ a:visited {
 }
 
 #main {
-    margin: auto;
-    padding: 15px;
-    border-radius: 5px;
-    background: #eeaabb;
+    margin: 20px 20px 20px 20px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    background: #faf5f5;
+
 }
 
 @media (max-width: 600px) {
@@ -69,23 +70,36 @@ a:visited {
 img {
     max-width: 50%;
     display: block;
-    height: auto;
-    margin: 0 auto;
+    margin: auto;
 }
 
 #img-div {
-    background: #b3dcff;
-    padding: 10px;
-    margin: 0;
+    padding: 20px;
+    margin: 15px;
+    position: center;
+    top: 20px;
+    max-width: 100%;
+    background-color: white;
+
 }
 
 #img-caption {
     margin: 15px 0 5px 0;
+    font-style: italic;
+    text-decoration: darkblue;
+
+}
+.img-border{
+    border-color: black;
+    border-width: 10px;
+    border-style: double;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.23);
 }
 
 @media (max-width: 460px) {
     #img-caption {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
+        font-style: oblique;
     }
 }
 
@@ -95,9 +109,9 @@ img {
 }
 
 ul {
-    max-width: 550px;
+    max-width: 680px;
     margin: 0 auto 50px auto;
-    text-align: left;
+    text-align: justify;
     line-height: 1.6;
 }
 
