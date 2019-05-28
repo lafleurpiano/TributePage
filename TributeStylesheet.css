@@ -13,7 +13,7 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     text-align: center;
-    color: #333;
+    color: #4f16ff;
     margin: 0;
 }
 
@@ -38,7 +38,11 @@ h1 {
 
 h2 {
     font-size: 3.15rem;
+    color: #ff7c44;
 
+}
+h3 {font-size: 3rem;
+color: #ffc14f
 }
 
 a {
@@ -98,7 +102,8 @@ ul {
 }
 
 li {
-    margin: 16px 0;
+    margin: 8px 0;
+    color: #0c802f;
 }
 
 blockquote {
