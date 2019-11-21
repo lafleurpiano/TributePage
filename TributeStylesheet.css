@@ -33,6 +33,7 @@ h1 {
     h1 {
         font-size: 3.5rem;
         line-height: 1.2;
+
     }
 }
 
@@ -125,4 +126,10 @@ blockquote {
     max-width: 545px;
     margin: 0 auto 50px auto;
     text-align: left;
+}
+nav {
+    display: inline;
+}
+.img-div {
+    align-content: center;
 }
